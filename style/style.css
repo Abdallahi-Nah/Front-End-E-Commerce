@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-indicators [data-bs-target] {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #017DBF;
+}
+.carousel-indicators [data-bs-target]:hover {
+    background-color: #BB0000;
+    transition: ease-in-out .3s;
+}
+.carousel-indicators .active {
+    background-color: #BB0000;
+}
+.carousel-inner > .carousel-item > img {
+    height: 100vh;
+}
+.my-icon {
+    color: #017DBF;
+}
+.carousel-caption {
+    background-color: rgba(151, 194, 224, .4);
+    border-radius: 20px;
+    bottom: 8rem;
+    padding: 50px !important;
+}
+.carousel-caption:hover {
+    background-color: rgba(48, 97, 232, .4);
+    transition: ease .7s;
+}
+.carousel-caption h2 {
+    font-size: 45px;
+    margin-bottom: 25px !important;
+}
+.carousel-caption p {
+    font-size: 20px;
+    margin-bottom: 25px !important;
+}
+.shopping-btn:hover {
+    background-color: #BB0000;
+    border-radius: 15px;
+    transition: ease-in-out .3s;
+}
+
+
+/* ******************************************** */
+.products > div > span, .contact > div > span, .specialist-command > div > span, .best-products > div > span, .services > div > span {
+    padding-bottom: 4px;
+    border-bottom: 3px solid red;
+}
+.products > .row > .col > a {
+    background-color: #017DBF !important;
+}
+.services > div > span {
+    color: #017DBF;
+}
+.products > .row > .col > a:hover {
+    background-color: white !important;
+    color: #017DBF !important;
+}
+.products > .container > .row > .col > .card > .card-body > .card-title > .my-icon-2,
+.products > .container > .row > .col > .card > .card-body > p:last-child {
+    color: #017DBF !important;
+}
+.products > .container > .row > .col > .card > img:hover {
+    height: 10%;
+    transition: ease-in-out .8s;
+}
+.products > .container > .row > .col > .card > .card-body > .card-title > .my-icon-2:hover {
+    color: #BB0000 !important;
+    cursor: pointer;
+}
+.contact-parent {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/study6.jpg");
+    background-size: cover;
+    
+}
+.contact-parent > .contact {
+    margin-top: 100px;
+    padding-top: 5px;
+}
+.contact-parent > .contact > div > p, .contact-parent > .contact > div > span {
+    color: white;
+}
+.contact-parent > .contact > div > p {
+    font-size: 18px;
+}
+.contact-parent > .contact > div > .row > input:first-child:focus {
+    border: none;
+    box-shadow: none;
+}
+.contact-parent > .contact > div > .row > .submit {
+    color: white;
+    background-color: #017DBF;
+}
+.specialist-command {
+    height: 500px;
+    border: 1px solid #ddd;
+    margin-top: 100px;
+}
+.specialist-command > div {
+    padding-top: 30px;
+}
+.specialist-command > div > span {
+    color: #017DBF;
+}
+.specialist-command > .form > .row > .col > input:focus {
+    box-shadow: none;
+}
+.specialist-command > .form > .send > input {
+    background-color: #017DBF;
+    height: 40px;
+}
+.best-products {
+    margin-top: 100px;
+}
+.image {
+    background-color: #ddd;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.best-products > .container > .col > .row > .col > .row > .col > p:last-child {
+    color: #017DBF;
+}
+.polytique {
+    background-color: #017DBF;
+}
+.polytique:hover {
+    background-color: #017DBF;
+}
+.footer {
+    height: 230px;
+    background-color: #017DBF;
+}
